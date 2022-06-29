@@ -10,6 +10,9 @@ class LogInScreen extends StatefulWidget {
 class _LogInScreenState extends State<LogInScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Container());
+    return Scaffold(
+        body: Container(
+      child: Text("I am emptyy atm"),
+    ));
   }
 }
